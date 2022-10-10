@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Categories = ({allCategories, category}) => {
+const Categories = () => {
   return (
     <div className="btn-container">
-      {allCategories.map((categories) => {
-        <button>{category}</button>
-      })}
+      
     </div>
   );
 };
